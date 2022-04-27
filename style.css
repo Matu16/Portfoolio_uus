@@ -98,6 +98,28 @@ body{
     border-radius: 5px;
 }
 
+@media screen and (min-width: 1024px){
+    .mina1_tekst h2{
+        font-size: 30px;
+    }
+
+    .mina1_tekst{
+        width: 70%;
+        align-self: flex-start;
+        margin-left: 5%;
+        justify-content: flex-start;
+    }
+
+    .mina1 h3{
+        margin-top: 2%;
+        margin-bottom: 0%;
+    }
+
+    .mina0{
+        width: fit-content;
+    }
+}
+
 /* Sisu Projektid */
 
 .projekt{
