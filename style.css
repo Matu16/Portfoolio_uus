@@ -112,6 +112,7 @@ body{
     color: white;
     text-decoration: none;
     padding: 7px;
+    border-radius: 5px;
 }
 
 /* Sisu projekt */
@@ -145,4 +146,34 @@ body{
 
 .lingid{
     text-decoration: none;
+}
+
+.links{
+    color: white;
+    text-align: center;
+    margin-top: 25%;
+    font-size: 36px;
+}
+
+@media screen and (min-width: 1024px){
+    .projekt_tekst{
+        font-size: 30px;
+        margin-top: 4%;
+        border-radius: 15px;
+        
+    }
+
+    .lingid h2{
+        margin-top: 2%;
+        width: 15%;
+    }
+
+    .lingid{
+        font-size: 24px;
+    }
+
+    .links{
+        margin-top: 6%;
+        font-size: 36px;
+    }
 }
