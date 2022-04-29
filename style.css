@@ -96,6 +96,12 @@ body{
         font-weight: bold;
         font-size: 26px;
         margin-left: 15%;
+        
+    }
+
+    .header_nupud_desc a:hover{
+        margin-top: 3%;
+        height: 2px;
     }
 }
 
@@ -180,6 +186,7 @@ body{
     padding: 7px;
     border-radius: 5px;
 }
+
 
 @media screen and (min-width: 1024px){
 
